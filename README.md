@@ -51,8 +51,11 @@ results in an interactive dashboard.
 
 ## Tableau Gantt Chart
 
-A Tableau Gantt chart of order delivery performance, built from the SQL data. The workbook and
-files are in the `tableau/` folder.
+![Tableau Gantt chart](tableau/FlexiPrintNexus_Gantt.png)
+
+A Tableau Gantt chart of order delivery performance. The `tableau/` folder holds the chart image
+(`FlexiPrintNexus_Gantt.png`), the Tableau workbook (`FlexiPrintnexus_gantt.twbx`) and the data
+it uses (`FlexiPrintNexusGantt.xlsx`).
 
 ## Power BI Dashboard
 
