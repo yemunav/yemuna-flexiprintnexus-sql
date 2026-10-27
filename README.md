@@ -27,7 +27,8 @@ results in an interactive dashboard.
 - Oracle SQL Developer
 - SQL: schema design (DDL), sample data (DML) and analysis queries (JOINs, GROUP BY, subqueries, window functions)
 - Power BI Desktop: data model, DAX measures and a multi-page interactive report
-
+- Tableau: Gantt chart of order delivery performance
+  
 ## Schema (15 tables)
 
 | Table            | Purpose                                                 |
@@ -47,6 +48,11 @@ results in an interactive dashboard.
 | Deliveries       | How each order reached the customer                     |
 | Inventory        | Stock movement history (IN/OUT)                         |
 | Feedbacks        | Customer rating and comments after delivery             |
+
+## Tableau Gantt Chart
+
+A Tableau Gantt chart of order delivery performance, built from the SQL data. The workbook and
+files are in the `tableau/` folder.
 
 ## Power BI Dashboard
 
@@ -79,7 +85,8 @@ orders, revenue and on-time %.
 1. Open Oracle SQL Developer and connect to your schema.
 2. Run `FlexiPrintNexus_final.sql`: a single script with all table definitions, sample data and
    analysis queries, in dependency order.
-3. To explore the dashboard, open `powerbi/FlexiPrintNexus_Dashboard_1.pbix` in Power BI Desktop.
+   Note: the SQL script builds a 12-order starter dataset. The Power BI dashboard uses an extended dataset of 82 orders (May to October 2026), so its figures will not match the script's output.
+4. To explore the dashboard, open `powerbi/FlexiPrintNexus_Dashboard_1.pbix` in Power BI Desktop.
 
 ## Key Findings (from the dashboard data, May to October 2026)
 
